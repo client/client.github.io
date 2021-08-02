@@ -1,2 +1,2 @@
-# client.github.io
-Trying out github pages
+# client's github.io page
+Just trying this stuff out.
