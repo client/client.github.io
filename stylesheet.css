@@ -3,3 +3,16 @@ body {
     color: #FFFFFF;
     font-family: Montserrat;
 }
+a {
+    color: #7d7d7d;
+    text-decoration: none;
+}
+h1 {
+    font-variant: Black;
+}
+h2 {
+    font-variant: Bold;
+}
+p {
+    font-variant: Regular;
+}
