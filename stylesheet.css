@@ -1,5 +1,6 @@
 body {
-    background-color: #171717;
+    background-image: linear-gradient(#171717, #212121);
+ /*   background-color: #171717; */
     color: #FFFFFF;
     font-family: Montserrat;
 }
