@@ -1,18 +1,183 @@
+/*Discord colour scheme*/
+
+@font-face {
+    font-family: Whitney-Medium;
+    src: url("../font/WhitneyHTF-Medium.otf");
+}
+
+@font-face {
+    font-family: Whitney-Light;
+    src: url("../font/WhitneyHTF-Light.otf");
+}
+
+/*@font-face {
+    font-family: Whitney-MediumCondensed;
+    src: url("../font/WhitneyHTF-MediumCondensed.otf");
+}*/
+
+/*@font-face {
+    font-family: Whitney-Book;
+    src: url("../font/WhitneyHTF-Book.otf");
+}*/
+
+@font-face {
+    font-family: Whitney-SemiBold;
+    src: url("../font/WhitneyHTF-SemiBold.otf");
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: #171717; 
-    color: #FFFFFF;
-    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+    color: #d0d0d0;
+    background-color: #2F3136;
+    font-family: Whitney-Light, Helvetica, sans-serif;
 }
+
+div {
+    float: left;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
 a {
-    color: #7d7d7d;
-    text-decoration: none;
+    text-decoration: inherit;
 }
-h1 {
-    font-variant: Black;
+
+    a:hover {
+        text-decoration: underline;
+        text-decoration-skip: none;
+        text-decoration-skip-ink: none;
+    }
+
+    a:visited {
+        color: inherit;
+    }
+b{
+    font-family: Whitney-SemiBold, Helvetica, sans-serif;
 }
-h2 {
-    font-variant: Bold;
+.content {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    min-height: 100vh;
+    background-color: #36393E;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
 }
-p {
-    font-variant: Regular;
+
+td {
+    vertical-align: top;
+    padding-top: 20px;
+    position: relative;
+    font-size: 20px;
+    padding-bottom: 20px;
+    border-bottom: #3E4146 solid 1px
 }
+
+.avatar {
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    float: left;
+}
+
+.username {
+    font-family: Whitney-Medium, Helvetica, sans-serif;
+    color: #007fa7;
+    font-size: 22px;
+    float: left;
+}
+
+.date {
+    font-family: Whitney-Medium, Helvetica, sans-serif;
+    font-size: 14px;
+    float: left;
+    color: #6D6E72;
+    margin-top: 9px;
+    margin-left: 10px;
+}
+
+.messageInfoWrapper {
+    width: 100%;
+    margin-bottom: 5px;
+    color: #007fa7;
+}
+
+.inviteField {
+    background-color: #313338;
+    margin-top: 10px;
+    padding: 20px;
+    width: 580px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: block;
+    float: left;
+}
+
+    .inviteField img {
+        width: 75px;
+        height: 75px;
+        border-radius: 30px;
+        display: block;
+        margin: 0;
+    }
+
+    .inviteField h3 {
+        font-size: 15px;
+        margin: 0;
+        margin-bottom: 10px;
+        letter-spacing: 2px;
+        font-family: Whitney-SemiBold, Helvetica, sans-serif;
+    }
+
+    .inviteField .serverText {
+        width: 460px;
+        padding-top: 10px;
+        padding-left: 10px;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        font-weight: 600;
+    }
+
+        .inviteField .serverText h1 {
+            font-size: 22px;
+            color: white;
+            margin: 0;
+            margin-bottom: 5px;
+            font-family: Whitney-SemiBold, Helvetica, sans-serif;
+        }
+
+    .inviteField .joinButton {
+        float: right;
+        width: 120px;
+        height: 60px;
+        font-size: 22px;
+        font-family: Whitney-Medium, Helvetica, sans-serif;
+        border-radius: 5px;
+        text-align: center;
+        color: white;
+        background-color: #43b581;
+        border: none;
+        cursor: pointer;
+    }
+
+        .inviteField .joinButton:hover {
+            -o-transition: 0.2s ease-in;
+            -webkit-transition: 0.2s ease-in;
+            transition: 0.2s ease-in;
+            background-color: #399d70;
+        }
